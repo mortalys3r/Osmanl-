@@ -32,7 +32,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 2800000, guid: f0b4647b3e2d07f44801ed8a5be3c594, type: 3}
+<<<<<<< Updated upstream
         m_Scale: {x: 2, y: 2}
+=======
+        m_Scale: {x: 5, y: 5}
+>>>>>>> Stashed changes
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
         m_Texture: {fileID: 0}
@@ -44,11 +48,19 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
+<<<<<<< Updated upstream
         m_Scale: {x: 9, y: 15}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: f0b4647b3e2d07f44801ed8a5be3c594, type: 3}
         m_Scale: {x: 9, y: 15}
+=======
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f0b4647b3e2d07f44801ed8a5be3c594, type: 3}
+        m_Scale: {x: 5, y: 5}
+>>>>>>> Stashed changes
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 2800000, guid: e1bf5ab1920c5f749921eac04d72e5ea, type: 3}
