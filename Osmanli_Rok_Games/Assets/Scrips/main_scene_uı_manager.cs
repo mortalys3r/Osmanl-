@@ -17,6 +17,15 @@ public class main_scene_uı_manager : MonoBehaviour
     public TMP_InputField hassasiyet;
 
 
+
+
+    private void Start()
+    {
+        canvas.SetActive(false);
+        main_menu.SetActive(true);
+        settings_menu.SetActive(false);
+
+    }
     public void change()
     {
         sens = float.Parse(hassasiyet.text);
@@ -29,10 +38,21 @@ public class main_scene_uı_manager : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.Escape))
         {
-            canvas.SetActive(true);
-            main_menu.SetActive(true);
-            settings_menu.SetActive(false);
-            cursor();
+            if(canvas.activeSelf==false)
+            {
+                canvas.SetActive(true);
+                main_menu.SetActive(true);
+                settings_menu.SetActive(false);
+                cursor();
+            }
+            else if(canvas.activeSelf==true) 
+            {
+                canvas.SetActive(false);
+                main_menu.SetActive(true);
+                settings_menu.SetActive(false);
+                cursor();
+            }
+
         }
 
     }
