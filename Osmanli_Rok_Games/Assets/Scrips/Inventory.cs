@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.IO;
-using SimpleJSON;
+using UnityEngine.UI;
 
 
 public class Inventory : MonoBehaviour
@@ -11,6 +11,12 @@ public class Inventory : MonoBehaviour
     public int güvenlik=3, para=3, din = 3, halk=3;
     public GameObject yazi;
     public string kaybetme_sebebi;
+
+    public Image paraIcon;
+    public Image dinIcon;
+    public Image halkIcon;
+    public Image askerIcon;
+    public int amount = 10;
     //public int sempati;
 
 
@@ -21,6 +27,15 @@ public class Inventory : MonoBehaviour
 
         string jsonData = JsonUtility.ToJson(data);
         File.WriteAllText(Application.dataPath + "/data.json", jsonData);
+
+
+        paraIcon.fillAmount = 0.3f;
+        askerIcon.fillAmount = 0.3f;
+        dinIcon.fillAmount = 0.3f;
+        halkIcon.fillAmount = 0.3f;
+
+
+
     }
 
 
@@ -38,10 +53,13 @@ public class Inventory : MonoBehaviour
         if (durum == -1 && para > 0)
         {
             para=para-1;
+            paraIcon.fillAmount = paraIcon.fillAmount - 0.1f;
+
         }
         else if (durum == 1 && para < 10)
         {
             para = para + 1;
+            paraIcon.fillAmount = paraIcon.fillAmount + 0.1f;
         }
     }
     public void güvenlik_olay(int durum)
@@ -49,31 +67,37 @@ public class Inventory : MonoBehaviour
         if (durum == -1 && güvenlik > 0)
         {
             güvenlik = güvenlik - 1;
+            askerIcon.fillAmount = askerIcon.fillAmount - 0.1f;
         }
         else if (durum == 1 && güvenlik < 10)
         {
             güvenlik = güvenlik + 1;
+            askerIcon.fillAmount = askerIcon.fillAmount + 0.1f;
         }
     }
     public void halk_olay(int durum)
     {
         if (durum == -1 && halk > 0)
         {
+            halkIcon.fillAmount = halkIcon.fillAmount - 0.1f;
             halk = halk - 1;
         }
         else if (durum == 1 && halk < 10)
         {
-            halk= halk + 1;
+            halkIcon.fillAmount = halkIcon.fillAmount + 0.1f;
+            halk = halk + 1;
         }
     }
     public void din_olay(int durum)
     {
         if (durum == -1 && din >0)
         {
-            din= din - 1;
+            dinIcon.fillAmount = dinIcon.fillAmount - 0.1f;
+            din = din - 1;
         }
         else if (durum == 1 && din < 10)
         {
+            dinIcon.fillAmount = dinIcon.fillAmount + 0.1f;
             din = din + 1;
         }
     }
