@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/play_scene.unity
     guid: 7f18628d8fa719642869ae5860bddcbc
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/Local Emirhan.unity
+    guid: 3456ee49edaeebc46804fab283e6883c
+  - enabled: 1
+    path: Assets/Scenes/KAZANMA.unity
+    guid: 945513a2097980b429b49a6ee3c23385
+  - enabled: 1
+    path: Assets/Scenes/KAYBETME.unity
+    guid: 95732119f5e8c814593be624d920d504
   m_configObjects: {}
