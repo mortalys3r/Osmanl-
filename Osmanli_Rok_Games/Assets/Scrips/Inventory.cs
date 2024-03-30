@@ -5,6 +5,7 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public int güvenlik=3, para=3, din = 3, halk=3;
+    public GameObject yazi;
     //public int sempati;
 
     public void para_olay(int durum)
@@ -51,4 +52,33 @@ public class Inventory : MonoBehaviour
             din = din + 1;
         }
     }
+
+
+    public void Update()
+    {
+        if(para<=0)
+        {
+
+        }
+        if (halk <= 0)
+        {
+
+        }
+        if (güvenlik <= 0)
+        {
+
+        }
+        if (din <= 0)
+        {
+
+        }
+
+    }
+
+
+    public void olcak()
+    {
+        yazi.SetActive(false);
+    }
+
 }
