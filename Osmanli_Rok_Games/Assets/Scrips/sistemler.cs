@@ -23,6 +23,9 @@ public class sistemler : MonoBehaviour
         if (objeler.Count == 0)
         {
             SceneManager.LoadSceneAsync(2);
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            Time.timeScale = 0f;
             return;
         }
 
