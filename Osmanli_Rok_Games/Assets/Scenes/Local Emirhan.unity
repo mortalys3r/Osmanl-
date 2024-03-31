@@ -410,16 +410,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   karakter: 
   meslek: 
-  istek: "ds\u0131jaldjaklfhsdkljghalk"
+  istek: "Kud\xFCs'\xFCn \u0130slam\xEE miras\u0131 oldu\u011Funu hat\u0131rlatarak
+    bu kutsal \u015Fehrin korunmas\u0131 ve Yahudi yerle\u015Fimlerine kar\u015F\u0131
+    tedbir al\u0131nmas\u0131 i\xE7in yard\u0131m istiyoruz."
   envanter: {fileID: 1475021193}
   din_durume: 1
-  para_durume: 0
-  halk_durume: 0
-  "g\xFCvenlik_durume": 0
-  din_durumq: 0
-  para_durumq: 0
-  halk_durumq: 0
-  "g\xFCvenlik_durumq": 0
+  para_durume: -1
+  halk_durume: 1
+  "g\xFCvenlik_durume": 1
+  din_durumq: -1
+  para_durumq: 1
+  halk_durumq: -1
+  "g\xFCvenlik_durumq": -1
 --- !u!65 &62216014
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -484,14 +486,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   karakter: 
   meslek: 
-  istek: "ds\u0131jaldjaklfhsdkljghalk"
+  istek: "D\u0131\u015F ticareti te\u015Fvik etmek ve ekonomik ili\u015Fkilerimizi
+    g\xFC\xE7lendirmek i\xE7in yeni bir ticaret anla\u015Fmas\u0131 imzalamak istiyoruz."
   envanter: {fileID: 1475021193}
-  din_durume: 1
-  para_durume: 0
+  din_durume: 0
+  para_durume: 1
   halk_durume: 0
-  "g\xFCvenlik_durume": 0
+  "g\xFCvenlik_durume": -1
   din_durumq: 0
-  para_durumq: 0
+  para_durumq: -1
   halk_durumq: 0
   "g\xFCvenlik_durumq": 0
 --- !u!65 &68130781
@@ -6585,16 +6588,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   karakter: 
   meslek: 
-  istek: "ds\u0131jaldjaklfhsdkljghalk"
+  istek: "Para basma haklar\u0131n\u0131 geni\u015Fleterek ekonomik g\xFCc\xFCm\xFCz\xFC
+    art\u0131rmak istiyoruz."
   envanter: {fileID: 1475021193}
-  din_durume: 1
-  para_durume: 0
-  halk_durume: 0
-  "g\xFCvenlik_durume": 0
+  din_durume: 0
+  para_durume: 1
+  halk_durume: -1
+  "g\xFCvenlik_durume": -1
   din_durumq: 0
-  para_durumq: 0
+  para_durumq: -1
   halk_durumq: 0
-  "g\xFCvenlik_durumq": 0
+  "g\xFCvenlik_durumq": 1
 --- !u!65 &707262689
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8101,16 +8105,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   karakter: 
   meslek: 
-  istek: "ds\u0131jaldjaklfhsdkljghalk"
+  istek: "\u0130sl\xE2m \u015Feriat\u0131na uygun bir \u015Fekilde, \u015Farap \xFCretimini
+    durdurmak ve halk\u0131n din\xEE de\u011Ferlerine zarar veren al\u0131\u015Fkanl\u0131klar\u0131
+    engellemek istiyoruz."
   envanter: {fileID: 1475021193}
   din_durume: 1
-  para_durume: 0
-  halk_durume: 0
-  "g\xFCvenlik_durume": 0
-  din_durumq: 0
-  para_durumq: 0
+  para_durume: -1
+  halk_durume: 1
+  "g\xFCvenlik_durume": 1
+  din_durumq: -1
+  para_durumq: 1
   halk_durumq: 0
-  "g\xFCvenlik_durumq": 0
+  "g\xFCvenlik_durumq": -1
 --- !u!65 &852122278
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13524,16 +13530,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   karakter: 
   meslek: 
-  istek: "ds\u0131jaldjaklfhsdkljghalk"
+  istek: "Kervansaraylar\u0131n yol g\xFCvenli\u011Finin sa\u011Flanmas\u0131 ve
+    t\xFCccarlar\u0131n korunmas\u0131 i\xE7in daha fazla askeri g\xFC\xE7 g\xF6revlendirilmesini
+    talep ediyoruz."
   envanter: {fileID: 1475021193}
-  din_durume: 1
-  para_durume: 0
+  din_durume: 0
+  para_durume: 1
   halk_durume: 0
-  "g\xFCvenlik_durume": 0
+  "g\xFCvenlik_durume": 1
   din_durumq: 0
-  para_durumq: 0
+  para_durumq: -1
   halk_durumq: 0
-  "g\xFCvenlik_durumq": 0
+  "g\xFCvenlik_durumq": -1
 --- !u!65 &1409649821
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14359,15 +14367,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   karakter: 
   meslek: 
-  istek: "ds\u0131jaldjaklfhsdkljghalk"
+  istek: "\u015Eehirlerdeki pazar yerlerinin d\xFCzenlenmesi ve temizli\u011Finin
+    sa\u011Flanmas\u0131 i\xE7in ek kaynaklara ihtiyac\u0131m\u0131z var."
   envanter: {fileID: 1475021193}
-  din_durume: 1
+  din_durume: 0
   para_durume: 0
-  halk_durume: 0
+  halk_durume: 1
   "g\xFCvenlik_durume": 0
   din_durumq: 0
   para_durumq: 0
-  halk_durumq: 0
+  halk_durumq: -1
   "g\xFCvenlik_durumq": 0
 --- !u!65 &1464661480
 BoxCollider:
@@ -14539,7 +14548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3411de7dbf40ba4b95605ce02635f49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  guvenlik: 3
+  "g\xFCvenlik": 5
   para: 3
   din: 3
   halk: 3
@@ -14550,7 +14559,6 @@ MonoBehaviour:
   halkIcon: {fileID: 327273021}
   askerIcon: {fileID: 496645182}
   amount: 5
-  bolum_seviye: 0
 --- !u!114 &1475021194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15384,16 +15392,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   karakter: 
   meslek: 
-  istek: "ds\u0131jaldjaklfhsdkljghalk"
+  istek: "Halka a\xE7\u0131k etkinlikler d\xFCzenleyerek k\xFClt\xFCrel etkile\u015Fimi
+    te\u015Fvik etmek istiyoruz."
   envanter: {fileID: 1475021193}
   din_durume: 1
-  para_durume: 0
-  halk_durume: 0
-  "g\xFCvenlik_durume": 0
-  din_durumq: 0
+  para_durume: -1
+  halk_durume: 1
+  "g\xFCvenlik_durume": -1
+  din_durumq: -1
   para_durumq: 0
-  halk_durumq: 0
-  "g\xFCvenlik_durumq": 0
+  halk_durumq: -1
+  "g\xFCvenlik_durumq": 1
 --- !u!65 &1575655871
 BoxCollider:
   m_ObjectHideFlags: 0
