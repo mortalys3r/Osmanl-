@@ -13480,9 +13480,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1773623360729482, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1475021193}
-    - targetCorrespondingSourceObject: {fileID: 1773623360729482, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1475021194}
     - targetCorrespondingSourceObject: {fileID: 1593727746557118, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1151969891}
@@ -14559,6 +14556,7 @@ MonoBehaviour:
   halkIcon: {fileID: 327273021}
   askerIcon: {fileID: 496645182}
   amount: 5
+<<<<<<< Updated upstream
 --- !u!114 &1475021194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14573,6 +14571,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zorluk_seviye: 0
   envanter: {fileID: 1475021193}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1475449967
 GameObject:
   m_ObjectHideFlags: 0

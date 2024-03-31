@@ -109,6 +109,9 @@ public class Inventory : MonoBehaviour
         {
             kaybetme_sebebi = "para bitti";
             veritabani();
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            Time.timeScale = 0f;
             SceneManager.LoadSceneAsync(3);
 
             
@@ -117,6 +120,9 @@ public class Inventory : MonoBehaviour
         {
             kaybetme_sebebi = "halkın sana düşmman oldu";
             veritabani();
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            Time.timeScale = 0f;
             SceneManager.LoadSceneAsync(3);
 
         }
@@ -124,6 +130,9 @@ public class Inventory : MonoBehaviour
         {
             kaybetme_sebebi = "askerlerinin hepsi öldü";
             veritabani();
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            Time.timeScale = 0f;
             SceneManager.LoadSceneAsync(3);
 
         }
@@ -131,6 +140,9 @@ public class Inventory : MonoBehaviour
         {
             kaybetme_sebebi = "inançlılar kafir olduğun için seni astı";
             veritabani();
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            Time.timeScale = 0f;
             SceneManager.LoadSceneAsync(3);
         }
 
