@@ -8,7 +8,7 @@ using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
-    public int güvenlik=3, para=3, din = 3, halk=3;
+    public int güvenlik=5, para=5, din = 5, halk=5;
     public GameObject yazi;
     public string kaybetme_sebebi;
 
@@ -29,10 +29,10 @@ public class Inventory : MonoBehaviour
         File.WriteAllText(Application.dataPath + "/data.json", jsonData);
 
 
-        paraIcon.fillAmount = 0.3f;
-        askerIcon.fillAmount = 0.3f;
-        dinIcon.fillAmount = 0.3f;
-        halkIcon.fillAmount = 0.3f;
+        paraIcon.fillAmount = 0.5f;
+        askerIcon.fillAmount = 0.5f;
+        dinIcon.fillAmount = 0.5f;
+        halkIcon.fillAmount = 0.5f;
 
 
 
