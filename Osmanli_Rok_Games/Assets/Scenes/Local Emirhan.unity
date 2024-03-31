@@ -6218,16 +6218,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   karakter: 
   meslek: 
-  istek: "ds\u0131jaldjaklfhsdkljghalk"
+  istek: "Korsan sald\u0131r\u0131lar\u0131na kar\u015F\u0131 etkin bir \u015Fekilde
+    m\xFCcadele etmek ve denizlerimizi temizlemek i\xE7in operasyonlar d\xFCzenlememiz
+    gerekiyor."
   envanter: {fileID: 1475021193}
-  din_durume: 1
-  para_durume: 0
-  halk_durume: 0
-  "g\xFCvenlik_durume": 0
+  din_durume: 0
+  para_durume: -1
+  halk_durume: 1
+  "g\xFCvenlik_durume": 1
   din_durumq: 0
   para_durumq: 0
-  halk_durumq: 0
-  "g\xFCvenlik_durumq": 0
+  halk_durumq: -1
+  "g\xFCvenlik_durumq": -1
 --- !u!65 &656539185
 BoxCollider:
   m_ObjectHideFlags: 0
