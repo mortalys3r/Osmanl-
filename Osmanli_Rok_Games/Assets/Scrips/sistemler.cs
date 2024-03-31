@@ -22,7 +22,7 @@ public class sistemler : MonoBehaviour
     {
         if (objeler.Count == 0)
         {
-            SceneManager.LoadSceneAsync(3);
+            SceneManager.LoadSceneAsync(2);
             return;
         }
 

@@ -15,7 +15,7 @@ public class main_scene_uı_manager : MonoBehaviour
     public FirstPersonLook look;
     public bool Cursor_mode=false;
     public TMP_InputField hassasiyet;
-
+    public GameObject story;
 
 
 
@@ -38,19 +38,22 @@ public class main_scene_uı_manager : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.Escape))
         {
-            if(canvas.activeSelf==false)
+            if (story.activeSelf == false)
             {
-                canvas.SetActive(true);
-                main_menu.SetActive(true);
-                settings_menu.SetActive(false);
-                cursor();
-            }
-            else if(canvas.activeSelf==true) 
-            {
-                canvas.SetActive(false);
-                main_menu.SetActive(true);
-                settings_menu.SetActive(false);
-                cursor();
+                if (canvas.activeSelf == false)
+                {
+                    canvas.SetActive(true);
+                    main_menu.SetActive(true);
+                    settings_menu.SetActive(false);
+                    cursor();
+                }
+                else if (canvas.activeSelf == true)
+                {
+                    canvas.SetActive(false);
+                    main_menu.SetActive(true);
+                    settings_menu.SetActive(false);
+                    cursor();
+                }
             }
 
         }

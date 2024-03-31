@@ -5,6 +5,7 @@ public class CubeMovement : MonoBehaviour
 {
     public Transform targetTransform, targetTransform1, targetTransform2, targetTransform3, targetTransform4; // Hedef konumu temsil eden boþ nesne (empty game object)
     public float moveSpeed = 5.0f;
+    public float rotasyon_sp = 5.0f;
     public int sayi = 1, oldu = 0, deneme = 0; // Küpün hýzýný ayarlayýn
     public Person pers;
     public GameObject kagit;
@@ -100,10 +101,10 @@ public class CubeMovement : MonoBehaviour
             pers.yazi_kont();
             kagit.SetActive(false);
             // Y ekseninde yavaþ yavaþ 180 derece rotasyon yap
-            float rotationSpeed = 50f; // Dönme hýzý
-            float step = rotationSpeed * Time.deltaTime;
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0f, -90f, 0f), step);
-            if (transform.rotation == Quaternion.Euler(0f, -90f, 0f)) // Eðer dönme tamamlandýysa
+            rotasyon_sp = 50f; // Dönme hýzý
+            float step = rotasyon_sp * Time.deltaTime;
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0f, 90f, 0f), step);
+            if (transform.rotation == Quaternion.Euler(0f, 90f, 0f)) // Eðer dönme tamamlandýysa
             {
                 Debug.Log("4");
                 sayi = 5; // sayýyý sýfýrla veya baþka bir deðerle güncelle, kodunuzun mantýðýna baðlý olarak
@@ -135,10 +136,10 @@ public class CubeMovement : MonoBehaviour
         {
             kagit.SetActive(false);
             // Y ekseninde yavaþ yavaþ 180 derece rotasyon yap
-            float rotationSpeed = 50f; // Dönme hýzý
-            float step = rotationSpeed * Time.deltaTime;
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0f, 180f, 0f), step);
-            if (transform.rotation == Quaternion.Euler(0f, 180f, 0f)) // Eðer dönme tamamlandýysa
+            rotasyon_sp = 50f; // Dönme hýzý
+            float step = rotasyon_sp * Time.deltaTime;
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0f, 0f, 0f), step);
+            if (transform.rotation == Quaternion.Euler(0f, 0f, 0f)) // Eðer dönme tamamlandýysa
             {
                 Debug.Log("6");
                 sayi = 7; // sayýyý sýfýrla veya baþka bir deðerle güncelle, kodunuzun mantýðýna baðlý olarak
