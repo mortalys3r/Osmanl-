@@ -7,6 +7,7 @@ public class sistemler : MonoBehaviour
 {
     public List<GameObject> objeler; // Oyun nesnelerinin listesi
     public string scriptAdi = "CubeMovement";
+
     private HashSet<int> secilenSayilar = new HashSet<int>();
 
     public void Start()

@@ -9,6 +9,7 @@ public class CubeMovement : MonoBehaviour
     public int sayi = 1, oldu = 0, deneme = 0; // Küpün hýzýný ayarlayýn
     public Person pers;
     public GameObject kagit;
+    public AudioSource ses;
 
     private void Update()
     {
@@ -16,6 +17,7 @@ public class CubeMovement : MonoBehaviour
 
         if (sayi == 1)
         {
+            ses.enabled= false;
             kagit.SetActive(false);
             pers.enabled = false;
 
@@ -47,6 +49,7 @@ public class CubeMovement : MonoBehaviour
         }
         else if (sayi == 2)
         {
+            ses.enabled = false;
             kagit.SetActive(false);
             // Hedef konumun pozisyonunu al
             Vector3 targetPosition = targetTransform1.position;
@@ -87,7 +90,7 @@ public class CubeMovement : MonoBehaviour
             if (Vector3.Distance(currentPosition, targetPosition) < 0.1f)
             {
                 pers.enabled = true;
-
+                ses.enabled = true;
                 Debug.Log("3");
                 kagit.SetActive(true);
                 oldu = 1;
@@ -100,6 +103,7 @@ public class CubeMovement : MonoBehaviour
         {
             pers.yazi_kont();
             kagit.SetActive(false);
+            ses.enabled = false;
             // Y ekseninde yavaþ yavaþ 180 derece rotasyon yap
             rotasyon_sp = 50f; // Dönme hýzý
             float step = rotasyon_sp * Time.deltaTime;
@@ -113,6 +117,7 @@ public class CubeMovement : MonoBehaviour
         else if (sayi == 5)
         {
             kagit.SetActive(false);
+            ses.enabled= false;
             // Hedef konumun pozisyonunu al
             Vector3 targetPosition = targetTransform3.position;
 
@@ -134,6 +139,7 @@ public class CubeMovement : MonoBehaviour
         }
         else if (sayi == 6)
         {
+            ses.enabled = false;
             kagit.SetActive(false);
             // Y ekseninde yavaþ yavaþ 180 derece rotasyon yap
             rotasyon_sp = 50f; // Dönme hýzý
@@ -148,6 +154,7 @@ public class CubeMovement : MonoBehaviour
 
         else if (sayi == 7)
         {
+            ses.enabled = false;
             kagit.SetActive(false);
             // Hedef konumun pozisyonunu al
             Vector3 targetPosition = targetTransform4.position;
@@ -171,6 +178,7 @@ public class CubeMovement : MonoBehaviour
         }
         else if (sayi == 8)
         {
+            ses.enabled |= false;
             kagit.SetActive(false);
             pers.enabled = false;
 
